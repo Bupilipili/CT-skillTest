@@ -376,9 +376,9 @@ body {
   gap: 0.5em;
   justify-content: center;
   width: 100%;
-  padding: 2em 10%;
+  padding: 2em 17vw;
   position: absolute;
-  top: -10px;
+  top: -20px;
 }
 .cards {
   width: 100%;
