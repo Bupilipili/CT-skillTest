@@ -1,0 +1,169 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 0.5em 2em;
+  position: absolute;
+  top: 1em;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.bg-image {
+  position: relative;
+  width: 100%;
+  background: url(images/photo-1459666644539-a9755.jpg) no-repeat center 0;
+  background-position-x: center;
+  background-position-y: 0px;
+  background-size: auto;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 40em;
+}
+
+.img-overlay {
+  padding: 7px 0 354px;
+  position: relative;
+  width: 100%;
+  background: url(images/layer_627.png) no-repeat center 0;
+  background-position-x: center;
+  background-position-y: 0px;
+  background-size: auto;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 40em;
+  top: -40em;
+}
+
+.los {
+  position: absolute;
+  top: 17em;
+  width: auto;
+  max-width: 80%;
+}
+
+.cards-container {
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  width: 100%;
+  padding: 2em 17vw;
+  position: absolute;
+  top: -20px;
+}
+.cards {
+  width: 100%;
+  overflow: hidden;
+}
+
+.section2 {
+  position: relative;
+  top: -42em;
+}
+
+.nav-2 {
+  background-color: #fff;
+  min-height: 7em;
+}
+
+.history-section {
+  background-image: url("/images/peak_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50em;
+  display: block;
+  padding: 5em;
+  width: 100%;
+}
+
+.history-wrapper {
+  height: 148px;
+  overflow: hidden;
+  position: relative;
+  width: 249px;
+  z-index: 85;
+}
+
+.history-header-1 {
+  left: 50%;
+  position: absolute;
+  top: 77px;
+  color: #414f6b;
+  font-family: Oswald, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 35px;
+  margin-left: 4.5px;
+}
+
+.history-header-2 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  color: #414f6b;
+  font-family: Oswald, sans-serif;
+  font-size: 8.476721rem;
+  font-weight: bold;
+  line-height: 148px;
+  margin-left: -124.5px;
+}
+
+.image-overlay-2 {
+	height: 195px;
+	left: 0;
+	position: absolute;
+	/* top: 0; */
+  margin-top: 18em;
+	width: 100%;
+	background: url(images/peak.jpg) no-repeat center 0;
+	background-position: center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity: 0.2;
+}
+.bg-carousel {
+	height: 195px;
+	top: -195px;
+	position: relative;
+	width: 100%;
+	background: #414f6bb2;
+}
+.climb-bg {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  position: relative;
+  top: -55em;
+  width: 100%;
+}
+.climb-wrapper {
+  height: 148px;
+  overflow: hidden;
+  position: relative;
+  width: 249px;
+  z-index: 85;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    padding: 1em 10em;
+  }
+  .history-section {
+    padding: 5em 15%;
+  }
+}
