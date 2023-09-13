@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -76,6 +80,45 @@ li {
   background-color: unset;
   border: unset;
   content: none;
+}
+
+.circle-nav {
+  left: 50%;
+  position: absolute;
+  top: 171px;
+  width: 30px;
+  margin-left: -15px;
+}
+.circle-nav > * {
+  float: left;
+  margin: 0 6px 0 0;
+}
+.circle-nav > *:last-child {
+  margin-right: 0 !important;
+}
+.ellipse-1 {
+  height: 6px;
+  width: 6px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.ellipse-1-copy {
+  height: 6px;
+  width: 6px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+}
+.ellipse-1-copy-2 {
+  height: 6px;
+  width: 6px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .section2 {
