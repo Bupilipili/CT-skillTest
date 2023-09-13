@@ -14,7 +14,6 @@ li {
 }
 
 .bg-image {
-  position: relative;
   width: 100%;
   background: url(images/photo-1459666644539-a9755.jpg) no-repeat center 0;
   background-position-x: center;
@@ -30,7 +29,7 @@ li {
 
 .img-overlay {
   padding: 7px 0 354px;
-  position: relative;
+  position: absolute;
   width: 100%;
   background: url(images/layer_627.png) no-repeat center 0;
   background-position-x: center;
@@ -42,7 +41,7 @@ li {
   -o-background-size: cover;
   background-size: cover;
   min-height: 40em;
-  top: -40em;
+  top: 0;
 }
 
 .los {
@@ -61,14 +60,26 @@ li {
   position: absolute;
   top: -20px;
 }
+
 .cards {
   width: 100%;
   overflow: hidden;
 }
 
+.cards ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards ul li button {
+  background-color: unset;
+  border: unset;
+  content: none;
+}
+
 .section2 {
   position: relative;
-  top: -42em;
 }
 
 .nav-2 {
@@ -136,8 +147,8 @@ li {
 }
 .bg-carousel {
   height: 195px;
-  top: -195px;
-  position: relative;
+  top: 45em;
+  position: absolute;
   width: 100%;
   background: #414f6bb2;
 }
@@ -148,7 +159,6 @@ li {
   gap: 1em;
   justify-content: center;
   position: relative;
-  top: -55em;
   width: 100%;
 }
 .climb-wrapper {
@@ -165,7 +175,6 @@ li {
 }
 
 .bg-tabs {
-  top: -55em;
   position: relative;
   width: 100%;
   background: url(images/photo-1417021423914-07097.png) no-repeat center 0;
@@ -228,7 +237,6 @@ footer {
   color: #63769d;
   min-height: 6em;
   height: 10em;
-  top: -55em;
 }
 
 @media screen and (min-width: 768px) {
